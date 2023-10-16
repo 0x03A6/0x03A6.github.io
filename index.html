@@ -11,7 +11,6 @@
                 return "+" + String(num);
         }
         function calc() {
-            
             var A_x = Number(document.getElementById("A_x").value);
             var A_y = Number(document.getElementById("A_y").value);
             var B_x = Number(document.getElementById("B_x").value);
@@ -23,10 +22,12 @@
 </head>
 
 <body>
+  <p>
     <input type="text" id="A_x" placeholder="输入A的x坐标"/><br/>
     <input type="text" id="A_y" placeholder="输入A的y坐标"/><br/>
     <input type="text" id="B_x" placeholder="输入B的x坐标"/><br/>
     <input type="text" id="B_y" placeholder="输入B的y坐标"/><br/>
     <input type="button" name="ok" value="ok" onclick="calc()">
-    <p id="result">a</p >
+  </p>
+  <p id="result">点击ok后显示结果</p >
 </body>
